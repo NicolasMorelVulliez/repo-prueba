@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+    /*color del body de fondo */
+}
+
+header{
+    border-bottom: 10px solid black  ;
+    background-color: red;
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+    /* color del nav  */
+
+}
+.parrila-salida{
+    width: 100%;
+    height: 10%;
+    border-bottom: 10px solid black;
+} /*modifico la foto de la parrila de salida le pongo border bottom y modifico el tamano*/
+ul{
+    list-style-type: none;
+    /* me sca el punto del nav  */
+}
+ul li{
+    display: inline-block;
+    /* me pone el nav en fila*/
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: antiquewhite;
+}
+.icono-nav{
+    width: 40px;
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.titulo-noticias{
+    font-size: 50px;
+    padding: 15px;
+} /*Tamano y paddong del titulo noticas */
+footer{
+    padding: 50px;
+    margin-top: 50px;
+    background-color: rgb(159, 159, 159);
+    border-top: 5px solid black;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+section{
+    padding: 10px;
+    border-radius: 15px;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+}
+    
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-equipo{
+    width: 400px;
+}
+
+
+
+.articulo{
+    width: 500px;
+    border: 10px solid black;
+}
+.articulo-index{
+    width: 800px;
+    height: 600px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    
+}
+h2{
+    width: 600px;
+    font-size: 30px;
+}
+.p-noticias{
+    font-size: 25px;
+    width: 700px;
+}
+
+
+img{
+    height: 300px;
+}
+.equipo{
+    border:10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+}
+.pilotos-equipo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-top: 8px solid black;
+    border-right: 8px solid black;
+    width: 300px;
+    height: 250px;
+}
+.equipos{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.pilotos{
+    width: 150px;
+    height: 150px;
+}
+article{
+    width: 150px;
+    height: 150px;
+}
+.flex-equipos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+figure:hover {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.hover-effect {
+
+    background-image: url("../img/logo/alphatauri-logo.jpg");
+    object-fit: cover;
+    width: 100%;
+}
